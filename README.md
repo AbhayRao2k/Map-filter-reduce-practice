@@ -7,29 +7,29 @@ This document tracks your progress as you practice and master the usage of `map`
 
 ## **1. Transform and Sort Names**
 **Description:** Extract names from an array of objects, convert them to uppercase, and sort alphabetically.
-- **Status:** Pending
+- **Status:** Completed
 - **Notes:**
 
 ---
 
 ## **2. Find the Longest Word**
 **Description:** Find the length of the longest word in an array of strings.
-- **Status:** Pending
+- **Status:** Completed
 - **Notes:**
 
 ---
 
 ## **3. Filter and Sum**
 **Description:** Filter out odd numbers from an array and sum up the even numbers.
-- **Status:** Pending
+- **Status:** Completed
 - **Notes:**
 
 ---
 
 ## **4. Group by Category**
 **Description:** Group products by category and return an object with category keys and arrays of product names as values.
-- **Status:** Pending
-- **Notes:**
+- **Status:** Completed
+- **Notes:** Here using map creates a new array by transforming each element of input array, more suitable for transforming data. Instead, reduce is a better fit for grouping data into categories since it allows building an object or multiple arrays in one go.
 
 ---
 
@@ -57,10 +57,10 @@ This document tracks your progress as you practice and master the usage of `map`
 ## Progress Tracker
 | Problem Number | Problem Name             | Status       |
 |----------------|--------------------------|--------------|
-| 1              | Transform and Sort Names |              |
-| 2              | Find the Longest Word    |              |
-| 3              | Filter and Sum           |              |
-| 4              | Group by Category        |              |
+| 1              | Transform and Sort Names |     Completed|
+| 2              | Find the Longest Word    |     Completed|
+| 3              | Filter and Sum           |     Completed|
+| 4              | Group by Category        |     Completed|
 | 5              | Calculate Average        |              |
 | 6              | Top Scorer               |              |
 | 7              | Custom Reduce Function   |              |
