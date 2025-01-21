@@ -140,4 +140,63 @@ const groupedItems = products.reduce(
   { Fruit: [], Vegetable: [] }
 );
 
-console.log(groupedItems)
+console.log(groupedItems);
+
+/*
+
+5. Calculate Average
+Given an array of objects representing students with their names and marks, calculate the average marks of all students.
+
+Example Input:
+
+const students = [
+  { name: "Alice", marks: 85 },
+  { name: "Bob", marks: 75 },
+  { name: "Charlie", marks: 90 },
+  { name: "David", marks: 95 }
+];
+
+*/
+
+const students = [
+  { name: "Alice", marks: 85 },
+  { name: "Bob", marks: 75 },
+  { name: "Charlie", marks: 90 },
+  { name: "David", marks: 95 },
+];
+
+const avgMarks =
+  students.reduce((total, score) => total + score.marks, 0) / students.length;
+console.log(avgMarks);
+
+/*
+
+6. Top Scorer
+Find the name of the student with the highest marks from the array of objects.
+
+Example Input:
+
+const students = [
+  { name: "Alice", marks: 85 },
+  { name: "Bob", marks: 75 },
+  { name: "Charlie", marks: 90 },
+  { name: "David", marks: 95 }
+];
+
+Expected Output:
+"David"
+
+*/
+
+const students2 = [
+  { name: "Alice", marks: 85 },
+  { name: "Bob", marks: 75 },
+  { name: "Charlie", marks: 90 },
+  { name: "David", marks: 95 }
+];
+
+const topScorer = students2.reduce((top, student) => {
+  return student.marks > top.marks ? student : top;
+});
+
+console.log(topScorer.name);

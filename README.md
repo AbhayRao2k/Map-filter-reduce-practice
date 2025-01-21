@@ -35,14 +35,18 @@ This document tracks your progress as you practice and master the usage of `map`
 
 ## **5. Calculate Average**
 **Description:** Calculate the average of an array of numbers, rounded to 2 decimal places.
-- **Status:** Pending
-- **Notes:**
+- **Status:** Completed
+- **Notes:** Use dynamic division to calculate average instead of hardcoding the values
+
+Why This is Better?
+• Dynamic Solution: Automatically adjusts to any array size.
+• Less Error-Prone: No need to manually count the students.
 
 ---
 
 ## **6. Top Scorer**
 **Description:** Find the name of the top scorer from an array of players with `name` and `score` properties.
-- **Status:** Pending
+- **Status:** Completed
 - **Notes:**
 
 ---
@@ -61,8 +65,8 @@ This document tracks your progress as you practice and master the usage of `map`
 | 2              | Find the Longest Word    |     Completed|
 | 3              | Filter and Sum           |     Completed|
 | 4              | Group by Category        |     Completed|
-| 5              | Calculate Average        |              |
-| 6              | Top Scorer               |              |
+| 5              | Calculate Average        |     Completed|
+| 6              | Top Scorer               |     Completed|
 | 7              | Custom Reduce Function   |              |
 
 ---
